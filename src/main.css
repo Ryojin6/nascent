@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @font-face {
+    font-family: 'squid';
+    src: url('/fonts/squids.otf');
+  }
+}
+.textXLarge {
+  @apply text-3xl font-semibold sm:text-4xl md:text-5xl 2xl:text-6xl;
+}
+
+.textLarge {
+  @apply text-3xl 2xl:text-4xl;
+}
+
+.textMedium {
+  @apply text-xl sm:text-2xl 2xl:text-3xl;
+}
+
+.textSmall {
+  @apply text-base font-light;
+}
+
+@responsive {
+  .pin-center {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .pin-x-center {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .pin-y-center {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.hamburger-icon span {
+  @apply absolute right-0 block w-full border-t-2 border-solid border-white opacity-100;
+  transform: rotate(0deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-icon.open span,
+.hamburger-icon:hover span {
+  @apply w-full;
+}
+
+.hamburger-icon span:nth-child(1),
+.hamburger-icon span:nth-child(2),
+.hamburger-icon span:nth-child(3) {
+  top: 9px;
+}
+
+.hamburger-icon > span:nth-child(1) {
+  @apply top-0;
+}
+
+.hamburger-icon > span:nth-child(3) {
+  top: 18px;
+}
+
+.service-summary li {
+  @apply text-2xl font-bold;
+}
+
+.hamburger-icon.open span:nth-child(1) {
+  top: 10px;
+  transform: rotate(135deg);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open span:nth-child(3) {
+  top: 10px;
+  transform: rotate(-135deg);
+}
+
+.custom-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.strokeText {
+  font-size: 7rem;
+
+  @apply font-title font-bold uppercase text-white opacity-20;
+}
