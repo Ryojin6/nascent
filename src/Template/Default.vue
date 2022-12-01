@@ -4,6 +4,7 @@
       Skip to main content
     </a>
     <AtomIeBanner />
+    <OrganismPageLoader />
     <div class="">
       <OrganismHeader />
       <div id="content" />
