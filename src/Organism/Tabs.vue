@@ -126,7 +126,7 @@ export default {
           image: '/finance.svg',
         },
         {
-          title: `IT`,
+          title: `Information and Technology`,
           image: '/it.svg',
         },
         {
