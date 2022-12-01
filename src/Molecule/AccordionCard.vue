@@ -8,7 +8,7 @@
       :aria-controls="`title${_uid}`"
       @click="show = !show"
     >
-      <h3 class="pt-6 text-xl xl:text-2xl 2xl:text-3xl">
+      <h3 class="pt-6 font-title text-xl xl:text-2xl">
         {{ title }}
       </h3>
       <span class="flex items-center pt-6 font-bold">

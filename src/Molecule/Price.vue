@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white font-sans">
+  <AtomAnimate class="bg-white font-sans">
     <div class="mx-auto max-w-7xl py-10 px-4 sm:py-24 sm:px-6 lg:px-8">
       <div class="pb-10 xl:flex xl:items-start xl:justify-between xl:space-x-4">
         <div class="pr-4">
@@ -86,5 +86,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </AtomAnimate>
 </template>
