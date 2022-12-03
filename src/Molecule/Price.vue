@@ -4,12 +4,20 @@
       <div class="pb-10 xl:flex xl:items-start xl:justify-between xl:space-x-4">
         <div class="pr-4">
           <h3 class="font-tile text-4xl font-bold tracking-tight sm:text-5xl">
-            <span class="text-gray-900">Everything you need for</span>
-            <span class="block text-n-gold">$59.99/mo or $499.99/yr </span>
+            <span class="text-gray-900"
+              >The ultimate business resource you need to succeed for</span
+            >
+            <span
+              v-aos
+              class="mt-2 inline-block p-1 px-2 transition-all duration-700 ease-in-out"
+              aos-from="text-n-gold scale-0"
+              aos-to="text-n-charcoal bg-n-gold scale-100"
+              >$59.99/mo or $499.99/yr
+            </span>
           </h3>
           <p class="mt-5 text-xl text-gray-500">
-            The Nascent Global membership program is a community driven
-            initiative led by the Nascent Global administrative team.
+            The Nascent Global membership program is a first-of-its kind online
+            membership experience built by Entrepreneurs for Entrepreneurs.
           </p>
         </div>
         <AtomBookCall />
@@ -20,11 +28,10 @@
         <div>
           <h2 class="text-lg font-semibold text-n-gold">Everything you need</h2>
           <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900">
-            All-in-one community
+            All-in-one community driven
           </p>
           <p class="mt-4 text-lg text-gray-500">
-            A first-of-its-kind online membership experience built by
-            Entrepreneurs for Entrepreneurs.
+            initiative led by the Nascent Global Administration team
           </p>
         </div>
         <div
