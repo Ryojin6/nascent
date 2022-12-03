@@ -57,24 +57,20 @@ export default {
     return {
       links: [
         {
-          label: 'Lorem',
-          link: '',
+          label: 'Curriculum',
+          link: '/curriculum',
         },
         {
-          label: 'Lorem2',
-          link: '',
+          label: 'What we do',
+          link: 'what-we-do',
         },
         {
-          label: 'Lorem3',
-          link: '',
+          label: 'Price',
+          link: 'price',
         },
         {
-          label: 'Lorem4',
-          link: '',
-        },
-        {
-          label: 'Lorem5',
-          link: '',
+          label: 'FAQ',
+          link: 'FAQ',
         },
       ],
       toggled: false,

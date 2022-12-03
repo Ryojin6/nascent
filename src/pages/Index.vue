@@ -18,9 +18,10 @@
         </div>
       </AtomInner>
     </AtomSection>
-    <OrganismTabs />
+    <OrganismTabs id="curriculum" />
 
     <AtomSection
+      id="what-we-do"
       tp="large"
       bp="large"
       class="relative overflow-hidden text-white"
@@ -41,7 +42,7 @@
         />
       </AtomInner>
     </AtomSection>
-    <MoleculePrice />
-    <OrganismFAQ />
+    <MoleculePrice id="price" />
+    <OrganismFAQ id="FAQ" />
   </TemplateDefault>
 </template>

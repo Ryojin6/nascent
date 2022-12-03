@@ -3,7 +3,7 @@
     v-aos
     tp="large"
     bp="large"
-    class="relative bg-gradient-to-b from-n-green to-n-green2 text-white transition-all duration-1000 ease-in-out"
+    class="relative bg-gradient-to-b text-white transition-all duration-1000 ease-in-out"
   >
     <AtomInner>
       <AtomAnimate>
