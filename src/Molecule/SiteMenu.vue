@@ -58,19 +58,19 @@ export default {
       links: [
         {
           label: 'Curriculum',
-          link: '/curriculum',
+          link: '#curriculum',
         },
         {
           label: 'What we do',
-          link: 'what-we-do',
+          link: '#what-we-do',
         },
         {
           label: 'Price',
-          link: 'price',
+          link: '#price',
         },
         {
           label: 'FAQ',
-          link: 'FAQ',
+          link: '#FAQ',
         },
       ],
       toggled: false,
