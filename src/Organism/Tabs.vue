@@ -9,7 +9,7 @@
       />
     </AtomAnimate>
     <AtomAnimate>
-      <div class="mx-auto max-w-6xl pt-24">
+      <div class="mx-auto max-w-6xl pt-10">
         <div
           class="mb-6 grid grid-cols-5 gap-4 space-x-4 border-b-2 border-n-gold pb-4"
         >
