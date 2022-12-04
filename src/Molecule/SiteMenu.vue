@@ -14,7 +14,7 @@
       <transition name="slide-fade">
         <div
           v-if="toggled"
-          class="absolute inset-0 top-32 z-50 flex h-screen w-full flex-col space-y-4 xl:shadow-xl"
+          class="absolute inset-0 z-50 flex h-screen w-full flex-col items-center justify-center space-y-4 bg-black xl:shadow-xl"
           @click="toggled = !toggled"
         >
           <AtomSiteMenuItem
@@ -32,10 +32,6 @@
         <AtomIconHamburger :class="{ 'open text-white': toggled }" />
       </button>
     </div>
-
-    <div
-      class="fixed inset-0 h-full w-full transition-all duration-500 ease-in-out xl:hidden"
-    />
   </nav>
 </template>
 
@@ -61,8 +57,8 @@ export default {
           link: '#curriculum',
         },
         {
-          label: 'What we do',
-          link: '#what-we-do',
+          label: 'Benefits',
+          link: '#benefits',
         },
         {
           label: 'Price',

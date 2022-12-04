@@ -7,14 +7,11 @@
   >
     <AtomInner>
       <AtomAnimate>
-        <MoleculeTitle
-          title="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Tempora placeat porro possimus  dolor sit amet consectetur adipisicing elit.
-           Tempora placeat porro "
-          subtitle="Lorem ipsum"
-        />
+        <h2 class="textXLarge flex justify-center text-center text-n-gold">
+          FAQ
+        </h2>
       </AtomAnimate>
-      <AtomAnimate class="my-10">
+      <AtomAnimate class="mb-10">
         <MoleculeAccordionCard
           v-for="item in faq"
           :key="item.id"
@@ -32,25 +29,17 @@ export default {
     return {
       faq: [
         {
-          title: 'Lorem ipsume sometsama',
-          description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Maxime sapiente ipsa ea inventore consequatur, at sed cum ex voluptate 
-          aperiam ipsum dolorum aliquam quos repellendus delectus ullam nihil hic
-           deserunt?`,
+          title: 'Can I get a refund?',
+          description: `Due to the nature of the prodcut we are unable to provide any refunds`,
         },
         {
-          title: 'Lorem ipsume sometsama',
-          description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Maxime sapiente ipsa ea inventore consequatur, at sed cum ex voluptate 
-          aperiam ipsum dolorum aliquam quos repellendus delectus ullam nihil hic
-           deserunt?`,
+          title: 'Do I have a guarantee for gains?',
+          description: `We cannot guarantee that anyone will be able to replicate the gains 
+          of those within our server.`,
         },
         {
-          title: 'Lorem ipsume sometsama',
-          description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Maxime sapiente ipsa ea inventore consequatur, at sed cum ex voluptate 
-          aperiam ipsum dolorum aliquam quos repellendus delectus ullam nihil hic
-           deserunt?`,
+          title: 'Do you provide financial advice?',
+          description: `We are not providing financial advice as a part of our service.`,
         },
       ],
     };

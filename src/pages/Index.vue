@@ -21,12 +21,12 @@
     <OrganismTabs id="curriculum" />
 
     <AtomSection
-      id="what-we-do"
+      id="benefits"
       tp="large"
       bp="large"
-      class="relative overflow-hidden text-white"
+      class="gradientSwap relative overflow-hidden text-white"
     >
-      <AtomInner>
+      <AtomInner class="space-y-14">
         <OrganismTwoColumn
           title="Exclusive Network of Entrepreneurs"
           image="/iphone.png"
@@ -42,7 +42,8 @@
         />
       </AtomInner>
     </AtomSection>
-    <MoleculePrice id="price" />
+    <div id="pricing" />
+    <MoleculePrice />
     <OrganismFAQ id="FAQ" />
   </TemplateDefault>
 </template>

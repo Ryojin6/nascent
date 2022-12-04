@@ -113,7 +113,7 @@
           <div>
             <div class="pb-6">
               <div class="text-xs text-gray-300">
-                Investing | Budgeting | Trading
+                Programming | Coding | Website Development
               </div>
               <div class="textLarge font-title font-bold uppercase text-n-gold">
                 Information and tehcnology

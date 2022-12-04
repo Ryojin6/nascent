@@ -98,3 +98,21 @@
 
   @apply font-title font-bold uppercase text-white opacity-20;
 }
+
+.gradientSwap {
+  background: linear-gradient(45deg, #000, #000, #af9b4f);
+  background-size: 500% 500%;
+  animation: gradient 10s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

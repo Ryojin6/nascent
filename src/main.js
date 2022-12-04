@@ -69,9 +69,9 @@ export default function main(Vue, { head }) {
     },
     {
       name: 'og:description',
-      content: `Nascent Global is an entity built by Entrepreneurs from all across the world
-      that focuses on empowering the core values of Innovation, Knowledge and
-      Ownership.`,
+      content: `Nascent Global is an entity built by Entrepreneurs from all across the
+      world that focuses on the fundamentals of long term wealth generation
+      through live education, mentorship and resources.`,
     },
     {
       name: 'twitter:card',

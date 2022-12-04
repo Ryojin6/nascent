@@ -1,7 +1,7 @@
 <template>
   <a
     :href="item.link"
-    class="transition-all duration-300 ease-in-out hover:text-n-gold scrolled:text-base"
+    class="text-3xl uppercase transition-all duration-300 ease-in-out hover:text-n-gold scrolled:text-base xl:text-base"
     >{{ item.label }}</a
   >
 </template>
