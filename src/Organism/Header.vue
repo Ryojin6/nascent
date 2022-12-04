@@ -18,11 +18,11 @@
       <div class="flex w-full items-center justify-end space-x-4 xl:w-auto">
         <AtomIconTwitter
           link="https://twitter.com/NascentCo"
-          class="text-n-gold hover:text-white"
+          class="hidden text-n-gold hover:text-white sm:block"
         />
         <AtomIconDiscord
           link="https://discord.gg/nascentglobal"
-          class="text-n-gold hover:text-white"
+          class="hidden text-n-gold hover:text-white sm:block"
         />
         <AtomBookCall />
       </div>

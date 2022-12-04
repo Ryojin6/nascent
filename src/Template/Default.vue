@@ -9,6 +9,18 @@
       <OrganismHeader />
       <div id="content" />
       <slot />
+      <div
+        class="fixed bottom-0 flex w-full items-center justify-center space-x-4 bg-black p-4 sm:hidden"
+      >
+        <AtomIconTwitter
+          link="https://twitter.com/NascentCo"
+          class="text-n-gold hover:text-white sm:block"
+        />
+        <AtomIconDiscord
+          link="https://discord.gg/nascentglobal"
+          class="text-n-gold hover:text-white sm:block"
+        />
+      </div>
     </div>
   </div>
 </template>

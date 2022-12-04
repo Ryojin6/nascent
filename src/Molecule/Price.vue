@@ -49,16 +49,17 @@
                   Daily Livestreams
                 </span>
               </li>
+
               <li class="flex py-4 md:py-0 md:pb-4">
                 <AtomIconCheck />
                 <span class="ml-3 text-base text-gray-500">
-                  Live Trading Sessions.
+                  Business Research Team
                 </span>
               </li>
               <li class="flex py-4 md:py-0 md:pb-4">
                 <AtomIconCheck />
                 <span class="ml-3 text-base text-gray-500">
-                  Business Research Team
+                  Wellness Resources
                 </span>
               </li>
             </div>
@@ -68,12 +69,6 @@
             class="divide-y divide-gray-200 border-t border-gray-200 md:border-t-0"
           >
             <div>
-              <li class="flex py-4 md:py-0 md:pb-4">
-                <AtomIconCheck />
-                <span class="ml-3 text-base text-gray-500">
-                  Wellness Resources
-                </span>
-              </li>
               <li class="flex py-4 md:py-0 md:pb-4">
                 <AtomIconCheck />
                 <span class="ml-3 text-base text-gray-500">
@@ -96,7 +91,9 @@
           </ul>
         </div>
       </div>
-      <div class="mt-6 flex justify-center space-x-4">
+      <div
+        class="mt-6 flex flex-col items-center justify-center space-y-6 sm:flex-row sm:space-y-0 sm:space-x-4"
+      >
         <a
           href="https://buy.stripe.com/8wMaHpgskfa5cTK7sw"
           target="_blank"

@@ -3,15 +3,15 @@
     <button
       :id="`label${_uid}`"
       type="button"
-      class="custom-transition flex w-full items-center justify-between space-x-10 p-4 font-bold"
+      class="custom-transition flex w-full justify-between space-x-10 p-4 font-bold sm:items-center"
       :aria-expanded="show ? 'true' : 'false'"
       :aria-controls="`title${_uid}`"
       @click="show = !show"
     >
-      <h3 class="pt-6 font-title text-xl xl:text-2xl">
+      <h3 class="pt-6 text-left font-title text-xl xl:text-2xl">
         {{ title }}
       </h3>
-      <span class="flex items-center pt-6 font-bold">
+      <span class="flex pt-6 font-bold sm:items-center">
         <span
           class="transform transition-transform duration-300"
           :class="show ? '-rotate-90' : 'rotate-90'"
