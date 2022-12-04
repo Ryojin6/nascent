@@ -2,7 +2,7 @@
   <transition name="fade">
     <div
       v-show="elementVisible"
-      class="absolute top-0 z-50 flex h-full w-full items-center justify-center bg-black"
+      class="fixed top-0 z-50 flex h-full w-full items-center justify-center bg-black"
     >
       <div class="mx-auto max-w-2xl">
         <img src="/animation.svg" alt="" class="w-full" />

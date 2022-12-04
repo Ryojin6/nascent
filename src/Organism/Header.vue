@@ -1,6 +1,6 @@
 <template>
   <header
-    class="pin-x-center bg-blur-2xl custom-transition fixed top-0 z-50 w-full bg-black px-6 py-4 xl:py-0"
+    class="pin-x-center bg-blur-2xl custom-transition fixed top-0 z-20 w-full bg-black px-6 py-4 xl:py-0"
   >
     <div class="mx-auto flex w-full max-w-8xl items-center justify-between">
       <g-link
