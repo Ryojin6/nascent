@@ -17,5 +17,16 @@ module.exports = {
       },
     },
   },
-  plugins: ['gridsome-plugin-robots', '@gridsome/plugin-sitemap'],
+  plugins: [
+    'gridsome-plugin-robots',
+    '@gridsome/plugin-sitemap',
+    {
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: 'GTM-MNT2DVF',
+        enabled: true,
+        debug: true,
+      },
+    },
+  ],
 };
